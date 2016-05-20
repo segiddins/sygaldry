@@ -1,6 +1,8 @@
-require 'sygaldry/version'
-
 # Manage CHANGELOGs in a new way!
 module Sygaldry
-  # Your code goes here...
+  require 'sygaldry/changelog'
+  require 'sygaldry/entry'
+  require 'sygaldry/format'
+  require 'sygaldry/release'
+  require 'sygaldry/version'
 end
